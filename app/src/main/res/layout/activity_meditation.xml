@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#E8F5E9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MeditationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meditation"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#124568"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/meditating"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/meditationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meditation Routine\n\n1. Morning Mindfulness\nSpend 5-10 minutes focusing on your breath to start the day calmly.\n\n2. Body Scan\nLie down and mentally scan your body from head to toe to release tension.\n\n3. Guided Meditation\nUse a guided audio session for 10-15 minutes.\n\n4. Gratitude Practice\nSpend 2-3 minutes thinking of things you are grateful for.\n\n5. Deep Breathing\nTake 5 slow, deep breaths to reduce stress.\n\n6. Walking Meditation\nWalk slowly, paying attention to each step and movement.\n\n7. Visualization\nVisualize a peaceful scene or a personal goal for mental clarity.\n\n8. Mindful Eating\nEat one meal or snack mindfully, focusing on taste and texture.\n\n9. Evening Reflection\nReflect on your day and release any negative thoughts.\n\n10. Sleep Preparation\nDo gentle stretches and deep breathing to prepare for restful sleep."
+            android:textSize="16sp"
+            android:padding="16dp"
+            android:textColor="#1B3E20"/>
+
+    </LinearLayout>
+
+</ScrollView>

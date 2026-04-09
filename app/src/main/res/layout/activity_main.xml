@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#E8F5E9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--Below is a linear layout that holds all our other views-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+<!--    Below is a textview    -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Health and Wellness App"
+            android:textSize="45sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+<!--    Below is an image    -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/main2"
+            android:layout_marginTop="15dp"/>
+
+        <com.google.android.gms.ads.AdView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/adView"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-3940256099942544/6300978111"/>
+
+<!--    Below is button number one    -->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/health_recipes"
+            android:text="Healthy Recipes"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/kales"
+            android:backgroundTint="#66BB6A"
+            android:layout_marginTop="15dp"/>
+
+<!--    Below is button number two    -->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nutrition_advice"
+            android:text="Nutrition Advice"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/nutri"
+            android:backgroundTint="#66BB6A"
+            android:layout_marginTop="15dp"/>
+
+<!--    Below is button number three    -->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/meditation"
+            android:text="Meditation"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/yoga"
+            android:backgroundTint="#66BB6A"
+            android:layout_marginTop="15dp"/>
+
+<!--    Below is button number four    -->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hydration_alert"
+            android:text="Hydration Alert"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/water"
+            android:backgroundTint="#66BB6A"
+            android:layout_marginTop="15dp"/>
+
+<!--    Below is the fifth button    -->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/start_exercise"
+            android:text="start exercise"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/heart"
+            android:backgroundTint="#66BB6A"
+            android:layout_marginTop="15dp"/>
+
+<!--    Below is button number six    -->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/daily_motivation"
+            android:text="Daily Motivation"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/motivat"
+            android:backgroundTint="#66BB6A"
+            android:layout_marginTop="15dp"/>
+
+<!--    Below is button number seven    -->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/weekly_goals"
+            android:text="Weekly Goals"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/weekly"
+            android:backgroundTint="#66BB6A"
+            android:layout_marginTop="15dp"/>
+
+<!--    Below is button number eight    -->
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/check_progress"
+                android:text="Check Progress"
+                android:textSize="20sp"
+                android:drawableLeft="@drawable/growth"
+                android:backgroundTint="#66BB6A"
+                android:layout_marginTop="15dp"/>
+
+<!--    Below is button number nine        -->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/learn_more"
+                android:text="Learn more..."
+                android:textSize="20sp"
+                android:drawableLeft="@drawable/learning"
+                android:backgroundTint="#66BB6A"
+                android:layout_marginTop="15dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#E8F5E9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NutritionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nutrition"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#124568"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/image5"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/nutrition_advice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nutrition Advice\n\n1. Eat a variety of fruits and vegetables daily.\n\n2. Include whole grains like oats, brown rice, and whole wheat bread.\n\n3. Choose lean proteins such as fish, chicken, beans, and eggs.\n\n4. Limit sugar and processed foods to maintain energy and health.\n\n5. Drink plenty of water throughout the day.\n\n6. Include healthy fats from nuts, seeds, and avocado.\n\n7. Plan balanced meals with proteins, carbs, and vegetables.\n\n8. Eat at regular intervals to maintain metabolism.\n\n9. Limit high-sodium foods to keep blood pressure healthy.\n\n10. Listen to your body’s hunger and fullness cues."
+            android:textSize="16sp"
+            android:padding="16dp"
+            android:textColor="#1B3E20"/>
+
+    </LinearLayout>
+
+</ScrollView>

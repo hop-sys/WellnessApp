@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#E8F5E9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProgressActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check progress"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#124568"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/progress"
+            android:scaleType="centerCrop"/>
+
+
+        <TextView
+            android:id="@+id/progressText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check Progress\n\n1. Hydration: You drank 6/8 glasses today! Great job!\n\n2. Exercise: Completed 3/3 planned sessions this week. Keep it up!\n\n3. Meditation: 15 minutes daily streak achieved. Fantastic!\n\n4. Healthy Recipes: 5/7 healthy meals eaten this week. Keep the momentum!\n\n5. Daily Motivation: 4/5 motivational tasks completed. Well done!\n\nRemember: Consistency is key. Every small step counts toward your wellness goals!"
+            android:textSize="16sp"
+            android:padding="16dp"
+            android:textColor="#1B5E20"/>
+
+    </LinearLayout>
+
+</ScrollView>

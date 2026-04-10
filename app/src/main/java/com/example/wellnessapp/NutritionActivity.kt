@@ -41,7 +41,7 @@ class NutritionActivity : AppCompatActivity() {
         val adRequest = AdRequest.Builder().build()
 
         RewardedAd.load(context,
-            "ca-app-pub-3940256099942544/5224354917",
+            "ca-app-pub-1575286333978357/7305065553",
             adRequest,
             object : RewardedAdLoadCallback() {
 

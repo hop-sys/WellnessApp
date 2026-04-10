@@ -41,9 +41,9 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
-    implementation("com.daimajia.androidanimations:library:2.4@aar")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation("com.google.android.gms:play-services-ads:23.0.0")
+    implementation("com.daimajia.androidanimations:library:2.4@aar")
 }
